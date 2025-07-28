@@ -35,3 +35,42 @@ body {
   height: 700px;
   object-fit: cover;
 }
+.test-container {
+      max-width: 800px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    .question {
+      margin-bottom: 25px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #eee;
+    }
+    .options label {
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    .options label:hover {
+      background: #e9ecef;
+    }
+    .options input[type="radio"] {
+      margin-right: 10px;
+    }
+    #result {
+      display: none;
+      margin-top: 30px;
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 5px;
+    }
+    .progress {
+      height: 25px;
+      margin-bottom: 20px;
+    }

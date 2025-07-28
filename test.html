@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ciberseguridad</title>
+     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Ciberseguridad</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Inicio</a>
+              <a class="nav-link" href="ataques.html">Ataques</a>
+              <a class="nav-link" href="buenasPrac.html">Buenas Prácticas</a>
+              <a class="nav-link active" href="test.html">Test</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container test-container">
+      <h1 class="text-center mb-4">Test de Ciberseguridad</h1>
+      <p class="text-center mb-4">
+        Responde las siguientes 10 preguntas para evaluar tus conocimientos
+      </p>
+
+      <form id="quizForm">
+        <!-- Pregunta 1 -->
+        <div class="question">
+          <h5>1. ¿Qué es un ataque de phishing?</h5>
+          <div class="options">
+            <label>
+              <input type="radio" name="q1" value="a" /> Un virus que encripta
+              tus archivos
+            </label>
+            <label>
+              <input type="radio" name="q1" value="b" /> Una técnica para
+              "pescar" información confidencial mediante engaños
+            </label>
+            <label>
+              <input type="radio" name="q1" value="c" /> Un ataque que satura un
+              servidor con tráfico
+            </label>
+          </div>
+        </div>
+
+        <!-- Pregunta 2 -->
+        <div class="question">
+          <h5>
+            2. ¿Cuál es la longitud mínima recomendada para una contraseña
+            segura?
+          </h5>
+          <div class="options">
+            <label>
+              <input type="radio" name="q2" value="a" /> 6 caracteres
+            </label>
+            <label>
+              <input type="radio" name="q2" value="b" /> 8 caracteres
+            </label>
+            <label>
+              <input type="radio" name="q2" value="c" /> 12 caracteres
+            </label>
+          </div>
+        </div>
+
+        <!-- Pregunta 3 -->
+        <div class="question">
+          <h5>3. ¿Qué hace el ransomware?</h5>
+          <div class="options">
+            <label>
+              <input type="radio" name="q3" value="a" /> Roba tus contraseñas
+            </label>
+            <label>
+              <input type="radio" name="q3" value="b" /> Secuestra tus archivos
+              y pide rescate
+            </label>
+            <label>
+              <input type="radio" name="q3" value="c" /> Espía tu actividad en
+              línea
+            </label>
+          </div>
+        </div>
+
+        <!-- Pregunta 4 -->
+        <div class="question">
+          <h5>4. ¿Qué es la regla 3-2-1 para copias de seguridad?</h5>
+          <div class="options">
+            <label>
+              <input type="radio" name="q4" value="a" /> 3 copias, en 2 medios
+              diferentes, 1 fuera del sitio
+            </label>
+            <label>
+              <input type="radio" name="q4" value="b" /> 3 días de retención, 2
+              versiones, 1 ubicación
+            </label>
+            <label>
+              <input type="radio" name="q4" value="c" /> 3 intentos de backup, 2
+              verificaciones, 1 almacenamiento
+            </label>
+          </div>
+        </div>
+
+        <!-- Pregunta 5 -->
+        <div class="question">
+          <h5>5. ¿Qué caracteriza un ataque DDoS?</h5>
+          <div class="options">
+            <label>
+              <input type="radio" name="q5" value="a" /> Infecta múltiples
+              dispositivos con malware
+            </label>
+            <label>
+              <input type="radio" name="q5" value="b" /> Satura un servicio con
+              tráfico desde múltiples fuentes
+            </label>
+            <label>
+              <input type="radio" name="q5" value="c" /> Suplanta la identidad
+              de un usuario legítimo
+            </label>
+          </div>
+        </div>
+
+        <!-- Pregunta 6 -->
+        <div class="question">
+          <h5>
+            6. ¿Por qué es importante actualizar el software regularmente?
+          </h5>
+          <div class="options">
+            <label>
+              <input type="radio" name="q6" value="a" /> Solo para obtener
+              nuevas funciones
+            </label>
+            <label>
+              <input type="radio" name="q6" value="b" /> Para corregir
+              vulnerabilidades de seguridad
+            </label>
+            <label>
+              <input type="radio" name="q6" value="c" /> Porque las versiones
+              antiguas consumen más espacio
+            </label>
+          </div>
+        </div>
+
+        <!-- Pregunta 7 -->
+        <div class="question">
+          <h5>
+            7. ¿Qué deberías hacer si recibes un email sospechoso de tu banco?
+          </h5>
+          <div class="options">
+            <label>
+              <input type="radio" name="q7" value="a" /> Hacer clic en los links
+              para verificar
+            </label>
+            <label>
+              <input type="radio" name="q7" value="b" /> Responder con tus datos
+              para confirmar
+            </label>
+            <label>
+              <input type="radio" name="q7" value="c" /> No interactuar y
+              contactar al banco directamente
+            </label>
+          </div>
+        </div>
+
+        <!-- Pregunta 8 -->
+        <div class="question">
+          <h5>8. ¿Qué es el malware?</h5>
+          <div class="options">
+            <label>
+              <input type="radio" name="q8" value="a" /> Software malicioso que
+              daña sistemas
+            </label>
+            <label>
+              <input type="radio" name="q8" value="b" /> Un tipo de ataque de
+              denegación de servicio
+            </label>
+            <label>
+              <input type="radio" name="q8" value="c" /> Un error en el sistema
+              operativo
+            </label>
+          </div>
+        </div>
+
+        <!-- Pregunta 9 -->
+        <div class="question">
+          <h5>9. ¿Cuál es una buena práctica para gestionar contraseñas?</h5>
+          <div class="options">
+            <label>
+              <input type="radio" name="q9" value="a" /> Usar la misma
+              contraseña en varios sitios
+            </label>
+            <label>
+              <input type="radio" name="q9" value="b" /> Utilizar un gestor de
+              contraseñas
+            </label>
+            <label>
+              <input type="radio" name="q9" value="c" /> Anotarlas en un archivo
+              sin cifrar
+            </label>
+          </div>
+        </div>
+
+        <!-- Pregunta 10 -->
+        <div class="question">
+          <h5>
+            10. ¿Qué indica que un sitio web es seguro para ingresar datos?
+          </h5>
+          <div class="options">
+            <label>
+              <input type="radio" name="q10" value="a" /> Tiene muchos anuncios
+            </label>
+            <label>
+              <input type="radio" name="q10" value="b" /> Muestra "https://" y
+              un candado en la barra de direcciones
+            </label>
+            <label>
+              <input type="radio" name="q10" value="c" /> Tiene un diseño
+              atractivo
+            </label>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            onclick="calculateScore()"
+          >
+            Ver resultados
+          </button>
+        </div>
+      </form>
+
+      <div id="result">
+        <h3 class="text-center">Tu resultado</h3>
+        <div class="progress">
+          <div
+            id="progressBar"
+            class="progress-bar"
+            role="progressbar"
+            style="width: 0%"
+          ></div>
+        </div>
+        <p id="scoreText" class="text-center fs-4"></p>
+        <div id="answersFeedback"></div>
+        <div class="text-center mt-3">
+          <button
+            id="retryBtn"
+            class="btn btn-outline-primary"
+            onclick="resetTest()"
+          >
+            Intentar nuevamente
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
